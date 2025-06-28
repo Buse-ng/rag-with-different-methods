@@ -1,0 +1,13 @@
+✅ Aşamalar ve Uygulama Planı
+1. 📚 Hikâyelerin Embedding'ini Al ve Sakla
+Hikâyeleri bir listeye veya .json, .pkl, .csv gibi bir dosyaya embedding'leriyle birlikte kaydet
+
+2. ❓ Soru Embedding'ini Al
+Kullanıcıdan gelen soruyu alıp aynı embedding yöntemini kullanarak vektörünü çıkart
+
+3. 📏 Cosine Similarity ile Karşılaştır
+Hikâye embedding’leriyle karşılaştırıp en yüksek benzerliğe sahip olanı bul
+
+4. 📝 Eşleşen Hikâyeyi Yazdır ve OpenAI'ya Gönder
+"Bu cevap RAG verisine dayanmaktadır" şeklinde mesajla beraber OpenAI'ya gönder
+
